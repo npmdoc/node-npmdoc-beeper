@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/beeper.png?downloads=true)](https://www.npmjs.com/package/beeper)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-beeper%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-beeper%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.npmPackageListing.svg)
 
