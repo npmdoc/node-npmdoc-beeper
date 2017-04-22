@@ -1,9 +1,14 @@
-# api documentation for  [beeper (v1.1.1)](https://github.com/sindresorhus/beeper#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-beeper.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-beeper) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-beeper.svg)](https://travis-ci.org/npmdoc/node-npmdoc-beeper)
+# npmdoc-beeper
+
+#### api documentation for  [beeper (v1.1.1)](https://github.com/sindresorhus/beeper#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-beeper.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-beeper) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-beeper.svg)](https://travis-ci.org/npmdoc/node-npmdoc-beeper)
+
 #### Make your terminal beep
 
-[![NPM](https://nodei.co/npm/beeper.png?downloads=true)](https://www.npmjs.com/package/beeper)
+[![NPM](https://nodei.co/npm/beeper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/beeper)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-beeper%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-beeper/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-beeper/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -59,13 +63,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "beeper",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/beeper.git"
@@ -73,19 +75,10 @@
     "scripts": {
         "test": "node test.js"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module beeper](#apidoc.module.beeper)
-
-
-
-# <a name="apidoc.module.beeper"></a>[module beeper](#apidoc.module.beeper)
 
 
 
