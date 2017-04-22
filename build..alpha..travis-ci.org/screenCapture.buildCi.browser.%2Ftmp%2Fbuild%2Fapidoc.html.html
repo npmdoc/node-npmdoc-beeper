@@ -54,12 +54,70 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.beeper">module beeper</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.beeper.beeper">
+            function <span class="apidocSignatureSpan"></span>beeper
+            <span class="apidocSignatureSpan">(val, cb)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.beeper" id="apidoc.module.beeper">module beeper</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.beeper.beeper" id="apidoc.element.beeper.beeper">
+        function <span class="apidocSignatureSpan"></span>beeper
+        <span class="apidocSignatureSpan">(val, cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">beeper = function (val, cb) {
+	if (!process.stdout.isTTY ||
+		process.argv.indexOf('--no-beep') !== -1 ||
+		process.argv.indexOf('--beep=false') !== -1) {
+		return;
+	}
+
+	cb = cb || function () {};
+
+	if (val === parseInt(val)) {
+		if (val &lt; 0) {
+			throw new TypeError('Negative numbers are not accepted');
+		}
+
+		if (val === 0) {
+			cb();
+			return;
+		}
+
+		for (var i = 0; i &lt; val; i++) {
+			setTimeout(function (i) {
+				beep();
+
+				if (i === val - 1) {
+					cb();
+				}
+			}, BEEP_DELAY * i, i);
+		}
+	} else if (!val) {
+		beep();
+		cb();
+	} else if (typeof val === 'string') {
+		melodicalBeep(val.split(''), cb);
+	} else {
+		throw new TypeError('Not an accepted type');
+	}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
